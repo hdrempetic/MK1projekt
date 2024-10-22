@@ -1,0 +1,76 @@
+h1 {
+    font-family:"Ubuntu";
+    font-weight:700;
+    font-style:italic;
+    color:gold;
+    background-color:transparent;
+    font-size:55px;
+    text-shadow:0 0 20px #f0e113;
+}
+
+p {
+    font-family:"Ubuntu",sans-serif;
+    font-size:28px;
+    color:white;
+    background-color:transparent;
+}
+
+.stroke
+{
+    font-size:28px;
+    font-style:italic;
+    font-weight:700;
+    color: white;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;  
+}
+
+.beatrice
+{
+    font-family:"Ubuntu";
+    font-weight:700;
+    font-style:italic;
+    color:gold;
+    background-color:transparent;
+    font-size:80px;
+    text-shadow:0 0 20px #f0e113;
+}
+
+.margin
+{
+    margin:90px;padding:0;
+}
+
+.seagullscry
+{
+    font-size:75px;
+    font-style:italic;
+    font-weight:700;
+    color: rgb(143, 4, 4);
+    text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;  
+}
+
+.stvar
+{
+    font-size:55px;
+    font-style:italic;
+    font-weight:700;
+    color: white;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;  
+}
+
+.margin2
+{
+    margin:100px;padding:0;
+}
