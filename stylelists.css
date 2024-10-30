@@ -1,0 +1,90 @@
+h1 {
+    font-family:"Ubuntu";
+    font-weight:700;
+    font-style:italic;
+    color:lightblue;
+    background-color:transparent;
+    font-size:70px;
+    text-shadow:0 0 20px #0967f5;
+}
+
+.stroke
+{
+    font-family:"Ubuntu";
+    font-size:34px;
+    font-style:italic;
+    font-weight:700;
+    color:lightblue;
+    text-shadow:
+    -2px -2px 0 #09aaf5,
+    2px -2px 0 #09aaf5,
+    -2px 2px 0 #09aaf5,
+    2px 2px 0 #09aaf5;  
+}
+
+.margin
+{
+    margin-left:170px;padding-left:100px;
+    margin-top:30px;
+}
+
+.margin2
+{
+    margin-top:-40px;
+    margin-left:0px;
+}
+
+.stroke2
+{
+    font-family:"Ubuntu";
+    font-size:70px;
+    font-style:italic;
+    font-weight:700;
+    color: lightblue;
+    text-shadow:0 0 20px #0967f5; 
+}
+
+ul
+{
+    list-style:url(images/bluebutterfly.gif);
+}
+
+.spanclass
+{
+    color:rgb(14, 54, 230);
+    display:grid;
+    margin-left:-220px;
+}
+
+pre
+{
+    text-align:center;
+}
+
+.stroke3
+{
+    font-family:"Ubuntu";
+    font-size:34px;
+    color:lightblue;
+    text-shadow:
+    -2px -2px 0 #09aaf5,
+    2px -2px 0 #09aaf5,
+    -2px 2px 0 #09aaf5,
+    2px 2px 0 #09aaf5;  
+}
+
+.pre2
+{
+    margin-top:-30px;
+    margin-left:-125px;
+}
+
+.floater
+{
+    float:right;
+}
+
+.pre3
+{
+    margin-top:-30px;
+}
