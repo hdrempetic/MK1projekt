@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+        </style>
+        <meta charset="UTF-8">
+        <title>
+        Treća zadaća
+        </title>
+        <link rel="stylesheet" type="text/css" href="dz3style.css">
+    </head>
+
+    <body background="images/letter.png">
+    <center>
+        <h1>Pozivnica na gozbu zlatne vještice</h1>
+
+        <p class="stroke">Pozvani ste na gozbu zlatne vještice, Beatrice!<br>
+        Vještica bi htjela znati par stvari o vama prije vašeg dolaska.
+    <fieldset>
+    <legend class="stroke">Prvo, upišite svoje ime i prezime:</legend>
+        <form action="">
+            <label class="stroke" for="Ime1">Ime:</label>
+            <input class="stroke" type="text" id="Ime1" name="Ime" placeholder="Upišite ime"><br>
+            <label class="stroke" for="Ime2">Prezime:</label>
+            <input class="stroke" type="text" id="Ime2" name="Prezime" placeholder="Upišite prezime"><br>
+            <input class="stroke" type="submit" value="Pošalji">
+        </form>
+    <p class="stroke">Zatim, odaberite svoj spol:</p>
+    <select name="Spol">
+        <option value="Muški">Muški</option>
+        <option value="Ženski">Ženski</option>
+        <option value="Ne želim reći">Ne želim reći</option>
+    </select>
+  
+    <form action="">
+        <label class="stroke" for="Dob">Odaberite svoju dobnu skupinu:</label>
+        <br>
+        <br>
+        <input list="Dob" name="Dob">
+        <datalist id="Dob">
+            <option value="18-29" name="Dob">18-29</option>
+            <option value="30-39" name="Dob">30-39</option>
+            <option value="40-49" name="Dob">40-49</option>
+            <option value="50-59" name="Dob">50-59</option>
+            <option value="65+" name="Dob">65+</option>
+        </datalist>
+    </form>
+
+    <p class="stroke">Ako ste gotovi sa ispunjavanjem, potvrdite svoj dolazak:</p>
+
+    <form action="">
+    <input type="button" value="Potvrđujem" onclick="alert('Hvala vam! Zlatna vještica se veseli vašem dolasku!')"
+    </form>
+
+    </fieldset>
+    
+    </center>
+    <br>
+    <a href="lists.html" class="stroke">Prethodna zadaća</a>
+    <audio controls autoplay style="display:none">
+        <source src="audio/Black Lilliana.ogg" type="audio/ogg">
+    </body>     
+</html>

@@ -1,0 +1,66 @@
+h1 
+{
+    font-family:"Ubuntu";
+    font-weight:700;
+    font-style:italic;
+    color:white;
+    background-color:transparent;
+    font-size:70px;
+    text-shadow:0 0 20px #9f09f5;
+}
+
+.stroke 
+{    
+    font-family:"Ubuntu";
+    font-size:34px;
+    font-style:italic;
+    font-weight:700;
+    color:white;
+    text-shadow:
+    -2px -2px 0 #9f09f5,
+    2px -2px 0 #9f09f5,
+    -2px 2px 0 #9f09f5,
+    2px 2px 0 #9f09f5;
+}
+
+fieldset 
+{
+    width:700px;
+    height:600px;
+    background:rgb(194, 36, 194);
+}
+
+body
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input:focus
+{
+    background-color:pink
+}
+
+a:hover
+{
+    background-color: pink
+}
+
+a:active
+{
+    background-color: red        
+}
+
+input[type=button]
+{
+    font-family:"Ubuntu";
+    font-size:34px;
+    font-style:italic;
+    font-weight:700;
+    color:white;
+    text-shadow:
+    -2px -2px 0 #9f09f5,
+    2px -2px 0 #9f09f5,
+    -2px 2px 0 #9f09f5,
+    2px 2px 0 #9f09f5;
+}
