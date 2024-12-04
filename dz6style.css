@@ -1,0 +1,53 @@
+p {
+   
+    font-family:"Ubuntu";
+    font-weight:700;
+    font-style:italic;
+    color:rgb(247, 241, 241);
+    background-color:transparent;
+    font-size:50px;
+    text-shadow:0 0 20px #000000;
+}
+
+h1 
+{
+    font-family:"Ubuntu";
+    font-weight:700;
+    font-style:italic;
+    color:rgb(255, 255, 255);
+    background-color:transparent;
+    font-size:70px;
+    text-shadow:0 0 20px #000000;
+}
+
+.stroke
+{
+    font-family:"Ubuntu";
+    font-size:60px;
+    font-style:italic;
+    font-weight:700;
+    color:rgb(255, 255, 255);
+    text-shadow:
+    -2px -2px 0 #000000,
+    2px -2px 0 #000000,
+    -2px 2px 0 #000000,
+    2px 2px 0 #000000;  
+}
+
+iframe
+{
+    width:1280px;
+	height:720px;
+	position:absolute;
+	border:1px solid gray;
+	background:white;
+}
+
+@media (min-width: 1500px){
+    body {
+        img {
+            border: 5px solid #000000;
+        }       
+    }
+}
+
