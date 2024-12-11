@@ -1,0 +1,50 @@
+body
+{
+    background-size: 350px 350px;
+}
+
+.stroke
+{
+    font-family:"Ubuntu";
+    font-size:30px;
+    font-style:italic;
+    font-weight:700;
+    color:rgb(0, 0, 0);
+    text-shadow:
+    -2px -2px 0 #e6770f,
+    2px -2px 0 #e6670f,
+    -2px 2px 0 #e6670f,
+    2px 2px 0 #e6670f;  
+}
+
+h1 
+{
+    font-family:"Ubuntu";
+    font-weight:700;
+    font-style:italic;
+    color:rgb(0, 0, 0);
+    background-color:transparent;
+    font-size:50px;
+    text-shadow:0 0 30px #ec7607;
+}
+
+img 
+{
+    height: 500px;
+    width: 500px;
+}
+
+.img2
+{
+    height: 500px;
+    width: 300px;
+}
+
+iframe
+{
+    width:1024px;
+	height:768px;
+	position:absolute;
+	border:1px solid gray;
+	background:white;
+}
