@@ -1,0 +1,97 @@
+div
+{
+    width: 100px;
+    height: 100px;  
+    position: relative;
+    float: left;
+}
+
+.font
+{
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+}
+
+.d1
+{
+    top: -8px;
+    left: -8px;
+    background: red;
+    transition:5s ease-out;
+}
+
+.d2
+{
+    top: -8px;
+    right: -92px;
+    background: green; 
+    transition:5s ease-out;   
+}
+
+.d3
+{
+    top: -8px;
+    right: -192px;
+    background: purple;
+    transition:5s ease-out;
+}
+
+.d4
+{
+    top: 192px;
+    right: 208px;
+    background: lightcoral;
+}
+
+.d5
+{
+    top: 192px;
+    right: 108px;
+    background: lightseagreen;
+}
+
+.d1:hover
+{
+    top: 192px;
+    transition:5s ease-out;
+    -webkit-transition:5s ease-out;
+}
+
+.d1:active+.d2
+{
+    top: 192px;
+}
+
+.d1:hover~.d3
+{
+    top: 192px;
+}
+
+.d5:hover
+{
+    transform:rotate3d(1,1,1,45deg);    
+}
+
+.d4:active
+{
+    transform:skew(-45deg,10deg);
+    transition:5s ease-out;
+    -webkit-transition:5s ease-out;
+}
+
+.d6
+{
+    width: 200px;
+    height: 100px;
+    top: 392px;
+    right: 408px;
+    background: yellowgreen;
+}
+
+.input:focus
+{
+    background: gold;
+    width: 180px;
+}
